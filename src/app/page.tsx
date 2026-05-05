@@ -43,10 +43,10 @@ export default function LandingPage() {
           description="Apoio para hotéis, restaurantes e eventos em Lisboa, com foco em eficiência, discrição e fiabilidade."
           background={{ variant: "plain" }}
           avatars={[
-            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DJy6d7VZJvroZeCpUvRtESIppW/uploaded-1778014410386-kz0tajho.jpg", alt: "Profissional de Hotelaria" },
-            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DJy6d7VZJvroZeCpUvRtESIppW/uploaded-1778014410386-kz0tajho.jpg", alt: "Profissional de Hotelaria" },
-            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DJy6d7VZJvroZeCpUvRtESIppW/uploaded-1778014410386-kz0tajho.jpg", alt: "Profissional de Hotelaria" },
-            { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DJy6d7VZJvroZeCpUvRtESIppW/uploaded-1778014410386-kz0tajho.jpg", alt: "Profissional de Hotelaria" }
+            { src: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=600", alt: "Profissional de Hotelaria" },
+            { src: "https://images.unsplash.com/photo-1595337603612-c2865b2670e3?q=80&w=600", alt: "Profissional de Hotelaria" },
+            { src: "https://images.unsplash.com/photo-1576267423047-16b83f3d6d62?q=80&w=600", alt: "Profissional de Hotelaria" },
+            { src: "https://images.unsplash.com/photo-1505693314120-0d32a8675402?q=80&w=600", alt: "Profissional de Hotelaria" }
           ]}
           buttons={[{ text: "Contacte-nos", href: "#contact" }, { text: "Pedir Apoio", href: "#contact" }]}
         />
@@ -70,15 +70,15 @@ export default function LandingPage() {
 
       <div id="services" data-section="services">
         <FeatureCardTwentySix
-          title="A Nossa Especialização"
-          description="Apoio especializado adaptado ao mercado de hotelaria de Lisboa."
+          title="Operações Especializadas"
+          description="Soluções de staffing para o rigor do mercado hoteleiro e de restauração em Lisboa."
           textboxLayout="inline-image"
           useInvertedBackground={false}
           features={[
-            { title: "Indústria Hoteleira", description: "Housekeeping, serviço de pequeno-almoço, apoio geral.", buttonIcon: Briefcase, imageSrc: "http://img.b2bpic.net/free-photo/porter-presents-direction-spa-center_482257-75910.jpg", imageAlt: "equipa de housekeeping hoteleiro de luxo" },
-            { title: "Restaurantes", description: "Empregados de mesa, apoio de cozinha, copa.", buttonIcon: Utensils, imageSrc: "http://img.b2bpic.net/free-photo/chef-preparing-recipe_23-2148145561.jpg", imageAlt: "serviço de mesa em restaurante" },
-            { title: "Eventos", description: "Pessoal geral, preparação e apoio operacional.", buttonIcon: Calendar, imageSrc: "http://img.b2bpic.net/free-photo/press-reporter-fallowing-leads-case_23-2149579721.jpg", imageAlt: "preparação de pessoal para eventos" },
-            { title: "Staffing Flexível", description: "Mão-de-obra dedicada para períodos de pico.", buttonIcon: Users, imageSrc: "http://img.b2bpic.net/free-photo/doorkeeper-shows-left-side-studio_482257-90877.jpg", imageAlt: "staff de apoio operacional" }
+            { title: "Room Cleaning & Housekeeping", description: "Limpeza profunda, manutenção de quartos e gestão de inventário de amenidades com rigor hoteleiro.", buttonIcon: Briefcase, imageSrc: "https://images.unsplash.com/photo-1618773928121-c32242e434e3?q=80&w=800", imageAlt: "limpeza profissional de quartos" },
+            { title: "Laundry & Linens", description: "Gestão de inventário têxtil, substituição de roupas de cama e toalhas seguindo os ciclos de lavandaria.", buttonIcon: Utensils, imageSrc: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=800", imageAlt: "organização de lavandaria" },
+            { title: "Shift Management", description: "Coordenação precisa de equipas por turnos, garantindo cobertura total em horários de pico e eventos especiais.", buttonIcon: Calendar, imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800", imageAlt: "coordenação de equipa" },
+            { title: "Last-Minute Substitutions", description: "Resposta ágil a ausências imprevistas para garantir que a sua operação nunca sofra interrupções.", buttonIcon: Users, imageSrc: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800", imageAlt: "suporte operacional rápido" }
           ]}
         />
       </div>
@@ -113,7 +113,7 @@ export default function LandingPage() {
           faqsAnimation="slide-up"
           textboxLayout="split"
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DJy6d7VZJvroZeCpUvRtESIppW/uploaded-1778014410386-kz0tajho.jpg"
+          imageSrc="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1000"
         />
       </div>
 
