@@ -119,6 +119,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactCenter
+          tag="Contact"
           title="Request Support"
           description="Contact us to speak with a representative and assess your operational needs."
           useInvertedBackground={true}
