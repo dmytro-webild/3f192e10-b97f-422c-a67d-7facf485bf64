@@ -40,7 +40,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroCentered
           title="Soluções profissionais de staffing, quando o seu negócio mais precisa."
-          description="Apoio para hotéis, restaurantes e eventos em Lisboa, com foco em eficiência, discrição e fiabilidade."
+          description="Apoio premium para hotéis, restaurantes e eventos em Lisboa. Eficiência e discrição garantidas para manter a excelência do seu serviço."
           background={{ variant: "plain" }}
           avatars={[
             { src: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=600", alt: "Profissional de Hotelaria" },
@@ -48,66 +48,67 @@ export default function LandingPage() {
             { src: "https://images.unsplash.com/photo-1576267423047-16b83f3d6d62?q=80&w=600", alt: "Profissional de Hotelaria" },
             { src: "https://images.unsplash.com/photo-1505693314120-0d32a8675402?q=80&w=600", alt: "Profissional de Hotelaria" }
           ]}
-          buttons={[{ text: "Contacte-nos", href: "#contact" }, { text: "Pedir Apoio", href: "#contact" }]}
+          buttons={[{ text: "Obter Proposta", href: "#contact" }, { text: "Falar com Consultor", href: "#contact" }]}
         />
       </div>
 
       <div id="problem" data-section="problem">
         <TextSplitAbout
-          title="Desafios operacionais são imprevisíveis"
-          description={["Ausências inesperadas, períodos de pico de procura e falta de pessoal podem impactar diretamente a qualidade do serviço e a experiência do cliente."]}
+          title="Desafios operacionais exigem agilidade"
+          description={["Ausências inesperadas, picos de procura sazonal ou falta de pessoal especializado podem comprometer a experiência do hóspede e a sua reputação."]}
           useInvertedBackground={false}
         />
       </div>
 
       <div id="solution" data-section="solution">
         <TextSplitAbout
-          title="Uma solução fiável e flexível"
-          description={["A Âncora Services disponibiliza profissionais qualificados para apoiar as suas operações, garantindo a continuidade e a manutenção dos padrões de serviço."]}
+          title="A sua extensão operacional em Lisboa"
+          description={["A Âncora Services providencia equipas flexíveis e rigorosamente selecionadas. Focamo-nos na continuidade operacional, permitindo que a sua gestão se concentre na estratégia enquanto nós garantimos a excelência no terreno."]}
           useInvertedBackground={true}
+          primaryButton={{ text: "Contrate Agora", href: "#contact" }}
         />
       </div>
 
       <div id="services" data-section="services">
         <FeatureCardTwentySix
-          title="Operações Especializadas"
-          description="Soluções de staffing para o rigor do mercado hoteleiro e de restauração em Lisboa."
+          title="Operações de Elite"
+          description="Soluções de staffing desenhadas para o alto padrão hoteleiro e gastronómico."
           textboxLayout="inline-image"
           useInvertedBackground={false}
           features={[
-            { title: "Room Cleaning & Housekeeping", description: "Limpeza profunda, manutenção de quartos e gestão de inventário de amenidades com rigor hoteleiro.", buttonIcon: Briefcase, imageSrc: "https://images.unsplash.com/photo-1618773928121-c32242e434e3?q=80&w=800", imageAlt: "limpeza profissional de quartos" },
-            { title: "Laundry & Linens", description: "Gestão de inventário têxtil, substituição de roupas de cama e toalhas seguindo os ciclos de lavandaria.", buttonIcon: Utensils, imageSrc: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=800", imageAlt: "organização de lavandaria" },
-            { title: "Shift Management", description: "Coordenação precisa de equipas por turnos, garantindo cobertura total em horários de pico e eventos especiais.", buttonIcon: Calendar, imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800", imageAlt: "coordenação de equipa" },
-            { title: "Last-Minute Substitutions", description: "Resposta ágil a ausências imprevistas para garantir que a sua operação nunca sofra interrupções.", buttonIcon: Users, imageSrc: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800", imageAlt: "suporte operacional rápido" }
+            { title: "Housekeeping & Governança", description: "Limpeza profunda, manutenção e gestão de inventário seguindo os mais elevados critérios de hospitalidade.", buttonIcon: Briefcase, imageSrc: "https://images.unsplash.com/photo-1618773928121-c32242e434e3?q=80&w=800", imageAlt: "limpeza profissional" },
+            { title: "Gestão de Lavandaria", description: "Ciclos de lavagem, secagem e manuseamento têxtil otimizados para hotéis de luxo.", buttonIcon: Utensils, imageSrc: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=800", imageAlt: "gestão de lavandaria" },
+            { title: "Coordenação de Turnos", description: "Gestão logística de equipas para garantir cobertura 24/7 em períodos de alta procura.", buttonIcon: Calendar, imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800", imageAlt: "coordenação de equipa" },
+            { title: "Staffing de Emergência", description: "Resposta imediata e ágil para substituir ausências e assegurar a continuidade dos serviços.", buttonIcon: Users, imageSrc: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800", imageAlt: "staffing ágil" }
           ]}
         />
       </div>
 
       <div id="how-it-works" data-section="how-it-works">
         <MetricCardSeven
-          title="Como Funciona"
-          description="O nosso processo fluido para a excelência em staffing."
+          title="O Nosso Fluxo de Excelência"
+          description="Um modelo de parceria simples para resultados imediatos."
           textboxLayout="split"
           useInvertedBackground={true}
           animationType="slide-up"
           metrics={[
-            { id: "1", value: "01", title: "Contacte-nos", items: ["Entre em contacto através dos nossos canais."] },
-            { id: "2", value: "02", title: "Avaliação", items: ["Avaliamos as suas necessidades específicas."] },
-            { id: "3", value: "03", title: "Seleção", items: ["Selecionamos o profissional adequado."] },
-            { id: "4", value: "04", title: "Execução", items: ["Execução do serviço com acompanhamento."] }
+            { id: "1", value: "01", title: "Consulta Inicial", items: ["Diagnóstico gratuito das suas necessidades."] },
+            { id: "2", value: "02", title: "Match de Talentos", items: ["Selecionamos a equipa com o perfil exato."] },
+            { id: "3", value: "03", title: "Integração Rápida", items: ["Treino e ambientação na sua operação."] },
+            { id: "4", value: "04", title: "Monitorização", items: ["Garantia de qualidade contínua no serviço."] }
           ]}
         />
       </div>
 
       <div id="differentiation" data-section="differentiation">
         <FaqSplitMedia
-          title="Porquê Escolher-nos"
-          description="Padrões profissionais para os ambientes mais exigentes."
+          title="Diferenciação Âncora"
+          description="Qualidade e fiabilidade no centro da nossa abordagem."
           faqs={[
-            { id: "1", title: "Seleção Cuidadosa", content: "Vetting rigoroso de todos os profissionais." },
-            { id: "2", title: "Flexibilidade", content: "Soluções ajustadas à sua procura específica." },
-            { id: "3", title: "Comunicação", content: "Reporte claro e transparente." },
-            { id: "4", title: "Discrição", content: "Abordagem operacional profissional e discreta." }
+            { id: "1", title: "Profissionais Vetting", content: "Selecionamos apenas colaboradores com histórico comprovado e atitude proativa." },
+            { id: "2", title: "Flexibilidade Total", content: "Adaptamos a dimensão da equipa aos seus horários e épocas de maior volume." },
+            { id: "3", title: "Comunicação Fluida", content: "Gestor dedicado para garantir que todas as exigências são cumpridas ao detalhe." },
+            { id: "4", title: "Discrição e Rigor", content: "Atuamos com o máximo profissionalismo no seu espaço, garantindo a sua reputação." }
           ]}
           mediaAnimation="slide-up"
           faqsAnimation="slide-up"
@@ -119,9 +120,9 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactCenter
-          tag="Contacto"
-          title="Pedir Apoio"
-          description="Fale com um representante para avaliar as suas necessidades operacionais."
+          tag="Fale Connosco"
+          title="Pronto para elevar os seus padrões?"
+          description="Contacte os nossos especialistas hoje e garanta a tranquilidade operacional que o seu hotel ou restaurante merece."
           useInvertedBackground={true}
           background={{ variant: "plain" }}
         />
@@ -130,7 +131,7 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterCard
           logoText="Âncora Services"
-          copyrightText="© 2025 Âncora Services | Lisboa, Portugal"
+          copyrightText="© 2025 Âncora Services | Lisboa, Portugal. Especialistas em Staffing Operacional."
           socialLinks={[{ icon: Instagram, href: "https://instagram.com/ancora.services", ariaLabel: "Instagram" }]}
         />
       </div>
