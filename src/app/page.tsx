@@ -75,7 +75,7 @@ export default function LandingPage() {
           textboxLayout="inline-image"
           useInvertedBackground={false}
           features={[
-            { title: "Housekeeping & Governança", description: "Limpeza profunda, manutenção e gestão de inventário seguindo os mais elevados critérios de hospitalidade.", buttonIcon: Briefcase, imageSrc: "https://images.unsplash.com/photo-1618773928121-c32242e434e3?q=80&w=800", imageAlt: "limpeza profissional" },
+            { title: "Housekeeping & Governança", description: "Limpeza profunda, manutenção e gestão de inventário seguindo os mais elevados critérios de hospitalidade.", buttonIcon: Briefcase, imageSrc: "https://images.pexels.com/photos/7796601/pexels-photo-7796601.jpeg?auto=compress&cs=tinysrgb&h=650&w=940&id=7796601", imageAlt: "limpeza profissional" },
             { title: "Gestão de Lavandaria", description: "Ciclos de lavagem, secagem e manuseamento têxtil otimizados para hotéis de luxo.", buttonIcon: Utensils, imageSrc: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=800", imageAlt: "gestão de lavandaria" },
             { title: "Coordenação de Turnos", description: "Gestão logística de equipas para garantir cobertura 24/7 em períodos de alta procura.", buttonIcon: Calendar, imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800", imageAlt: "coordenação de equipa" },
             { title: "Staffing de Emergência", description: "Resposta imediata e ágil para substituir ausências e assegurar a continuidade dos serviços.", buttonIcon: Users, imageSrc: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800", imageAlt: "staffing ágil" }
