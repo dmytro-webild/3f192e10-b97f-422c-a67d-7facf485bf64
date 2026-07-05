@@ -65,7 +65,6 @@ export default function LandingPage() {
           title="A sua extensão operacional em Lisboa"
           description={["A Âncora Services providencia equipas flexíveis e rigorosamente selecionadas. Focamo-nos na continuidade operacional, permitindo que a sua gestão se concentre na estratégia enquanto nós garantimos a excelência no terreno."]}
           useInvertedBackground={true}
-          primaryButton={{ text: "Contrate Agora", href: "#contact" }}
         />
       </div>
 
